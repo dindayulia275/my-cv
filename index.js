@@ -2,8 +2,8 @@ let listExperience = document.querySelector("#listExperience");
 
 let dataExperience = [
   {
-    title: "Mentor",
-    desc: "ngajar",
+    title: "Web CV Dinda Yulia Putri",
+    desc: "my-cv",
   },
 ];
 const addExperience = (event) => {
@@ -20,8 +20,8 @@ const addExperience = (event) => {
   dataExperience.push(newData);
 
   newData = {
-    title: "",
-    desc: "",
+    title: "Web CV Dinda Yulia Putri",
+    desc: "my-cv",
   };
 
   dataExperience.map((item) => {
